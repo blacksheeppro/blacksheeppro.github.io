@@ -1,0 +1,102 @@
+/*INDEX VIEW STYLES*/
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url('halo-reach.jpg');
+    background-size: cover;
+    font-family: 'Lora', serif;
+}
+/*HEADER STYLE*/
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: darkblue;
+}
+/*END OF HEADER STYLE*/
+
+/*BUTTONS*/
+.btn {
+    margin-top: 1%;
+    margin-left: 5%;
+    height: 40px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+.btn:hover {
+    background-color: yellow;
+}
+/*END OF BUTTONS*/
+
+/*SOCIAL MEDIA IMAGES*/
+.imgs {
+    position: relative;
+    left: 15%;
+    top: -10em;
+    width: 5%;
+}
+
+.imgs:hover {
+    color: black;
+    opacity: 0.5;
+}
+/*END OF SOCIAL MEDIA LINKS*/
+
+/*LOGO*/
+#navBar, .logo {
+    position: relative;
+    margin-top: 1%;
+    width: 60%;
+}
+/*END OF LOGO*/
+
+/*NAVBAR*/
+li, .links {
+    display: inline-block;
+    margin: 5%;
+    position: relative;
+    left: 25%
+}
+
+span {
+    color: red;
+}
+/*END OF NAVBAR*/
+
+/*FOOTER STYLES*/
+.footer {
+    margin-top: 7%;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+}
+/*END OF FOOTER STYLES*/
+
+/*VIDEO LINKS*/
+.channel {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 45%;
+    top: 15px;
+}
+
+.color {
+    color: white;
+    text-decoration: none;
+
+}
+
+.videoLink {
+    display:list-item;
+}
+/*END OF VIDEO LINKS*/
+
+/*END OF INDEX VIEW STYLES*/
+
+h1 {color: aliceblue}
